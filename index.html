@@ -6,14 +6,15 @@
     <title>Henrique Machado Broseghini</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dosis&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0c4164aa77.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
     <nav class="menu">
       <ul>
-        <li><a href="https://www.linkedin.com/in/henrique-machado-broseghini-041163189/">Linkedin</a></li>
-        <li><a href="https://www.instagram.com/henriquebros/?hl=en">Instagram</a></li>
-        <li><a href="https://twitter.com/BrosHenrique">Twitter</a></li>
+        <li><a href="sobre.html">Sobre         <i class="fas fa-book"></i></a></li>
+        <li><a href="#portfolio">Projetos        <i class="fas fa-code"></i></a></li>
+        <li><a href="#contato">Contato           <i class="far fa-address-card"></i></a></li>
      </ul> 
     </nav>
     <div>
@@ -24,24 +25,63 @@
 
 
 <section class="portfolio">
-  <h2>Projetos</h2>
+  <h2 id="portfolio">Projetos</h2>
 
   <div class="grid">
-    <figure>
-      <a href ="https://github.com/HenriqueBros"> <img class="img-portfolio" src="./img/git2.png" alt="GitHub"> </a>
-      <figcaption><a href ="https://github.com/HenriqueBros"> GitHub </a> </figcaption>
-    </figure>
-    <figure>
-      <a href="https://github.com/HenriqueBros/Mobile"> <img class="img-portfolio" src="./img/android2.jfif" alt=">Android"> </a>
-      <figcaption><a href="https://github.com/HenriqueBros/Mobile"> Android</a></figcaption>
-    </figure>
-    <figure >
-      <a href="https://www.instagram.com/irmaoscoala/"> <img  class="img-portfolio"  src="./img/coala2.jpg" alt="Projetos pessoais"> </a>
-      <figcaption><a href="https://www.instagram.com/irmaoscoala/"> Projetos pessoais</a></figcaption>
-    </figure>
+
+    <div class="flip-card">
+      <div class="card">
+        <figure class="card-front">
+          <a href ="https://github.com/HenriqueBros"> <img class="img-portfolio" src="./img/git2.png" alt="GitHub"> </a>
+          <figcaption><a href ="https://github.com/HenriqueBros"> GitHub </a> </figcaption>
+        </figure>
+        <div class="card-back">
+          GitHub.
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="card">
+        <figure class="card-front">
+          <a href="https://github.com/HenriqueBros/Mobile"> <img class="img-portfolio" src="./img/android2.jfif" alt=">Android"> </a>
+          <figcaption><a href="https://github.com/HenriqueBros/Mobile"> Android</a></figcaption>
+        </figure>
+        <div class="card-back"> 
+          Android.
+        </div>
+      </div>  
+    </div>
+
+    <div class="flip-card">  
+      <div class="card">
+        <figure class="card-front">
+          <a href="https://www.instagram.com/irmaoscoala/"> <img  class="img-portfolio"  src="./img/coala2.jpg" alt="Projetos pessoais"> </a>
+          <figcaption><a href="https://www.instagram.com/irmaoscoala/"> Projetos pessoais</a></figcaption>
+        </figure>
+        <div class="card-back"> 
+          Projetos Pessoais.
+        </div>
+      </div>  
+    </div>
+
   </div>
 </section>
 
+<section id="contato" class="contato">
+  <h2>Contato</h2>
+  <div class="grid icons">
+    <a href="https://www.linkedin.com/in/henrique-machado-broseghini-041163189/">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/henriquebros/?hl=en">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/BrosHenrique">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+</section>    
 
 </body>
 </html>
