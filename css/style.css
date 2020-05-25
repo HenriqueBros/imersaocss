@@ -18,6 +18,9 @@ body {
   body {
     font-size: 14px;
   }
+  .portfolio.grid {
+    grid-template-columns: 240px;
+  }
 }
 
 @media (min-width: 600px) {
@@ -148,13 +151,13 @@ p {
     width: 250px;
     border-radius: 15px;
     box-shadow: rgb(175, 73, 243, 0.7) 7px 7px 0 0;
-    object-fit: cover;
-    transition: transform 1s;
+    /*object-fit: cover;
+    transition: transform 1s;*/
 }
 
-.img-portfolio:hover {
+/*.img-portfolio:hover {
   transform: scale(0.9) rotate(-5deg);
-}
+}*/
 
 .contato a{
   padding: 10px 20px;
@@ -188,32 +191,33 @@ p {
   }
 }
 
-.flip-card {
+/*.flip-card {
   perspective: 500px;
-}
+}*/
 
 .card {
   position: relative;
-  transform-style: preserve-3d;
-  transition: transform 1s;
+  font-size: 2em;
+ /* transform-style: preserve-3d;
+  transition: transform 1s;*/
 }
 
-.card:hover {
+/*.card:hover {
   transform: rotateY(180deg);
-}
+}*/
 
-.card-back {
+/*.card-back {
   background-color: rgb(197, 60, 186);
   height: 180px;
   width:250px;
   border-radius: 15px;
   transform: rotateY(180deg);
-}
+}*/
 
-.card-front,
+/*.card-front,
 .card-back {
   backface-visibility: hidden;
   left: 0;
   position: absolute;
   top: 0;
-}
+}*/
